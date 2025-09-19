@@ -47,10 +47,21 @@ Write-Host "Executando detecção de apps WinGet via Intune..." -ForegroundColor
 
 # 7. Análise avançada do dsreg (Device Registration)
 Write-Host "Executando análise detalhada de dsreg..." -ForegroundColor Cyan
-. ".\dsreg.ps1" -OutputFileName "$reportDir\dsreg_detalhado.txt"
+. ".\DSRegTool-main\dsregtool.exe" -OutputFileName "$reportDir\dsreg_detalhado.txt"
 
 # 8. Listar todas as políticas de compliance do Intune
 Write-Host "Listando todas as políticas de compliance aplicadas..." -ForegroundColor Cyan
-. ".\Check-CompliancePolicies.ps1" -OutputFileName "$reportDir\CompliancePolicies.csv"
+try {
+    # Conectar ao Microsoft Graph se necessário
+    if (!(Get-Module -Name Microsoft.Graph.Authentication -ListAvailable)) {
+        Write-Warning "Módulo Microsoft.Graph não encontrado. Execute: Install-Module Microsoft.Graph -Scope CurrentUser"
+    } else {
+        Connect-MgGraph -Scopes "DeviceManagementConfiguration.Read.All" -NoWelcome
+        Get-MgDeviceManagementDeviceCompliancePolicy | Export-Csv -Path "$reportDir\CompliancePolicies.csv" -NoTypeInformation -Encoding UTF8
+        Write-Host "Políticas de compliance exportadas para CompliancePolicies.csv" -ForegroundColor Green
+    }
+} catch {
+    Write-Warning "Erro ao recuperar políticas de compliance: $($_.Exception.Message)"
+}
 
 Write-Host "Relatórios e logs salvos em $reportDir" -ForegroundColor Green

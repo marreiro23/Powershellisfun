@@ -1,0 +1,117 @@
+
++----------------------------------------------------------------------+
+| Device State                                                         |
++----------------------------------------------------------------------+
+
+             AzureAdJoined : YES
+          EnterpriseJoined : NO
+              DomainJoined : YES
+                DomainName : CSU
+               Device Name : CSUDSK8PXSVN2.csu.digital
+
++----------------------------------------------------------------------+
+| Device Details                                                       |
++----------------------------------------------------------------------+
+
+                  DeviceId : 27cee218-f185-40e7-b110-ea6178c28012
+                Thumbprint : 16AFC103D5B9782795EEEA8F1B930C03591FC74A
+ DeviceCertificateValidity : [ 2025-04-09 17:22:39.000 UTC -- 2035-04-09 17:52:39.000 UTC ]
+            KeyContainerId : 2356f8f0-cbb4-41b4-8931-ffb790c4b43f
+               KeyProvider : Microsoft Software Key Storage Provider
+              TpmProtected : NO
+          DeviceAuthStatus : SUCCESS
+
++----------------------------------------------------------------------+
+| Tenant Details                                                       |
++----------------------------------------------------------------------+
+
+                TenantName : CSU Digital S/A
+                  TenantId : 5bcdd539-4b8e-4418-97de-b8b001bc378e
+                       Idp : login.windows.net
+               AuthCodeUrl : https://login.microsoftonline.com/5bcdd539-4b8e-4418-97de-b8b001bc378e/oauth2/authorize
+            AccessTokenUrl : https://login.microsoftonline.com/5bcdd539-4b8e-4418-97de-b8b001bc378e/oauth2/token
+                    MdmUrl : https://enrollment.manage.microsoft.com/enrollmentserver/discovery.svc
+                 MdmTouUrl : https://portal.manage.microsoft.com/TermsofUse.aspx
+          MdmComplianceUrl : https://portal.manage.microsoft.com/?portalAction=Compliance
+               SettingsUrl : 
+            JoinSrvVersion : 2.0
+                JoinSrvUrl : https://enterpriseregistration.windows.net/EnrollmentServer/device/
+                 JoinSrvId : urn:ms-drs:enterpriseregistration.windows.net
+             KeySrvVersion : 1.0
+                 KeySrvUrl : https://enterpriseregistration.windows.net/EnrollmentServer/key/
+                  KeySrvId : urn:ms-drs:enterpriseregistration.windows.net
+        WebAuthNSrvVersion : 1.0
+            WebAuthNSrvUrl : https://enterpriseregistration.windows.net/webauthn/5bcdd539-4b8e-4418-97de-b8b001bc378e/
+             WebAuthNSrvId : urn:ms-drs:enterpriseregistration.windows.net
+    DeviceManagementSrvVer : 1.0
+    DeviceManagementSrvUrl : https://enterpriseregistration.windows.net/manage/5bcdd539-4b8e-4418-97de-b8b001bc378e/
+     DeviceManagementSrvId : urn:ms-drs:enterpriseregistration.windows.net
+
++----------------------------------------------------------------------+
+| User State                                                           |
++----------------------------------------------------------------------+
+
+                    NgcSet : NO
+           WorkplaceJoined : NO
+             WamDefaultSet : YES
+       WamDefaultAuthority : organizations
+              WamDefaultId : https://login.microsoft.com
+            WamDefaultGUID : {B16898C6-A148-4967-9171-64D755DA8520} (AzureAd)
+
++----------------------------------------------------------------------+
+| SSO State                                                            |
++----------------------------------------------------------------------+
+
+                AzureAdPrt : YES
+      AzureAdPrtUpdateTime : 2025-09-19 03:13:45.000 UTC
+      AzureAdPrtExpiryTime : 2025-10-03 03:13:51.000 UTC
+       AzureAdPrtAuthority : https://login.microsoftonline.com/5bcdd539-4b8e-4418-97de-b8b001bc378e
+             EnterprisePrt : NO
+    EnterprisePrtAuthority : 
+                 OnPremTgt : NO
+                  CloudTgt : YES
+         KerbTopLevelNames : .windows.net,.windows.net:1433,.windows.net:3342,.azure.net,.azure.net:1433,.azure.net:3342
+
++----------------------------------------------------------------------+
+| Diagnostic Data                                                      |
++----------------------------------------------------------------------+
+
+        AadRecoveryEnabled : NO
+    Executing Account Name : CSU\cst2683, cst2683.okta7@csu.com.br
+               KeySignTest : PASSED
+
+        DisplayNameUpdated : Managed by MDM
+          OsVersionUpdated : Managed by MDM
+           HostNameUpdated : YES
+
+      Last HostName Update : NONE
+
++----------------------------------------------------------------------+
+| IE Proxy Config for Current User                                     |
++----------------------------------------------------------------------+
+
+      Auto Detect Settings : YES
+    Auto-Configuration URL : http://proxydiscovery.csu.corp/proxy-corporativo-new.js
+         Proxy Server List : 
+         Proxy Bypass List : 
+
++----------------------------------------------------------------------+
+| WinHttp Default Proxy Config                                         |
++----------------------------------------------------------------------+
+
+               Access Type : DIRECT
+
++----------------------------------------------------------------------+
+| Ngc Prerequisite Check                                               |
++----------------------------------------------------------------------+
+
+            IsDeviceJoined : YES
+             IsUserAzureAD : YES
+             PolicyEnabled : NO
+          PostLogonEnabled : YES
+            DeviceEligible : YES
+        SessionIsNotRemote : NO
+            CertEnrollment : none
+              PreReqResult : WillNotProvision
+
+For more information, please visit https://www.microsoft.com/aadjerrors
