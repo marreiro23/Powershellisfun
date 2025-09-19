@@ -1,0 +1,46 @@
+===========================================================
+          Device Registration Troubleshooter Tool          
+===========================================================
+
+Please provide any feedback, comment or suggestion
+
+Enter (1) to troubleshoot Microsoft Entra Register
+
+Enter (2) to troubleshoot Microsoft Entra join device
+
+Enter (3) to troubleshoot Microsoft Entra hybrid join
+
+Enter (4) to verify Service Connection Point (SCP)
+
+Enter (5) to verify the health status of the device
+
+Enter (6) to Verify Primary Refresh Token (PRT)
+
+Enter (7) to collect the logs
+
+Enter (Q) to Quit
+
+DSRegTool log file has been created.
+
+
+2
+
+troubleshoot Microsoft Entra join device option has been chosen
+
+DSRegTool 4.0 has started
+Device Name : CSUDSK8PXSVN2
+User Account: csu\cst2683, UPN: cst2683.okta7@csu.com.br
+
+Testing OS version...
+Test passed: device has current OS version (10.0.19045.0)
+
+Testing if the device joined to the local domain...
+CSUDSK8PXSVN2 device is joined to the local domain: CSU
+
+Recommended action: The selected option runs for AADJ devices. To troubleshoot hybrid devices, re-run the script and select option '3'.
+
+
+Script completed successfully.
+
+
+

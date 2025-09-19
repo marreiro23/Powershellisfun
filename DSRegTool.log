@@ -1,0 +1,35 @@
+==========================================================
+==========================================================
+[2025-09-19 20:02:30.990] [INFO] DSRegTool 4.0 has started
+[2025-09-19 20:02:31.009] [INFO] Device Name : CSUDSK8PXSVN2
+[2025-09-19 20:02:33.815] [INFO] User Account: csu\cst2683, UPN: cst2683.okta7@csu.com.br
+[2025-09-19 20:02:54.372] [INFO] troubleshoot Microsoft Entra Register option has been chosen
+[2025-09-19 20:02:54.466] [INFO] Testing OS version...
+[2025-09-19 20:02:54.517] [INFO] Test passed: device has current OS version (10.0.19045.0)
+[2025-09-19 20:02:57.428] [INFO] Testing if the device is Microsoft Entra Registered...
+[2025-09-19 20:02:57.492] [INFO] Test failed: CSUDSK8PXSVN2 device is NOT connected to Microsoft Entra ID as Microsoft Entra Registered device
+[2025-09-19 20:02:57.517] [INFO] Testing Internet Connectivity...
+[2025-09-19 20:02:57.862] [INFO] Connection to login.microsoftonline.com .............. Succeeded.
+[2025-09-19 20:02:58.122] [INFO] Connection to device.login.microsoftonline.com ......  Succeeded.
+[2025-09-19 20:02:58.205] [INFO] Connection to enterpriseregistration.windows.net ..... Succeeded.
+[2025-09-19 20:02:58.217] [INFO] Test passed: User is able to communicate with MS endpoints successfully
+[2025-09-19 20:02:58.305] [INFO] Checking if there is a valid Access Token...
+[2025-09-19 20:02:58.703] [INFO] There no valid Access Token, please sign-in to get an Access Token
+[2025-09-19 20:02:59.073] [INFO] Device code EJR7XVV3U  has been copied to the clipboard, please paste it into the opened 'Microsoft Graph Authentication' window, complete the signin, and close the window to proceed.
+                                 Note: If 'Microsoft Graph Authentication' window didn't open,use a web browser to open the page https://microsoft.com/devicelogin and enter the code EJR7XVV3U to authenticate.
+[2025-09-19 20:02:59.144] [INFO] Testing Device Registration Service...
+[2025-09-19 20:02:59.247] [ERROR] Test failed: Device Registration Service is disabled on the tenant
+[2025-09-19 20:02:59.257] [INFO] Recommended action: enable Device Registration Service application on your tenant
+[2025-09-19 20:02:59.266] [INFO] Script completed successfully.
+==========================================================
+==========================================================
+[2025-09-19 20:03:19.284] [INFO] DSRegTool 4.0 has started
+[2025-09-19 20:03:19.299] [INFO] Device Name : CSUDSK8PXSVN2
+[2025-09-19 20:03:19.490] [INFO] User Account: csu\cst2683, UPN: cst2683.okta7@csu.com.br
+[2025-09-19 20:03:20.454] [INFO] troubleshoot Microsoft Entra join device option has been chosen
+[2025-09-19 20:03:20.534] [INFO] Testing OS version...
+[2025-09-19 20:03:20.545] [INFO] Test passed: device has current OS version (10.0.19045.0)
+[2025-09-19 20:03:21.067] [INFO] Testing if the device joined to the local domain...
+[2025-09-19 20:03:21.147] [INFO] CSUDSK8PXSVN2 device is joined to the local domain: CSU
+[2025-09-19 20:03:21.157] [INFO] Recommended action: The selected option runs for AADJ devices. To troubleshoot hybrid devices, re-run the script and select option '3'.
+[2025-09-19 20:03:21.169] [INFO] Script completed successfully.

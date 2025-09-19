@@ -1,0 +1,59 @@
+===========================================================
+          Device Registration Troubleshooter Tool          
+===========================================================
+
+Please provide any feedback, comment or suggestion
+
+Enter (1) to troubleshoot Microsoft Entra Register
+
+Enter (2) to troubleshoot Microsoft Entra join device
+
+Enter (3) to troubleshoot Microsoft Entra hybrid join
+
+Enter (4) to verify Service Connection Point (SCP)
+
+Enter (5) to verify the health status of the device
+
+Enter (6) to Verify Primary Refresh Token (PRT)
+
+Enter (7) to collect the logs
+
+Enter (Q) to Quit
+
+DSRegTool log file has been created.
+
+
+7
+
+Collect the logs option has been chosen
+
+DSRegTool 4.0 has started
+Device Name : CSUDSK8PXSVN2
+User Account: csu\cst2683, UPN: cst2683.okta7@csu.com.br
+
+Testing if script running with elevated privileges...
+PowerShell is running with elevated privileges
+
+Creating DSRegToolLogs folder under C:\Users\cst2683.CSU\git-PowerShellisFun\Powershellisfun\DSRegTool-main
+Checking PreTrace folder under C:\Users\cst2683.CSU\git-PowerShellisFun\Powershellisfun\DSRegTool-main\DSRegToolLogs
+Collecting PreTrace logs...
+
+Please press ENTER to start log collection...Starting log collection...
+Enabling debug logs...
+Starting network traces...
+
+
+Log collection has started, please start repro the issue...
+
+When repro finished, please press ENTER to stop log collection...Log collection has been stopped, please wait until we gather all files...
+Copying files...
+Exporting registry keys...
+Exporting event viewer logs...
+Stopping network traces, this may take few minutes...
+Compressing collected logs...
+Compressed file is ready in C:\Users\cst2683.CSU\git-PowerShellisFun\Powershellisfun\DSRegTool-main\DSRegTool_Logs_2025-09-19_20-32.zip
+
+
+Log collection completed successfully
+
+

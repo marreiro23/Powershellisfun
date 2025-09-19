@@ -1,0 +1,79 @@
+===========================================================
+          Device Registration Troubleshooter Tool          
+===========================================================
+
+Please provide any feedback, comment or suggestion
+
+Enter (1) to troubleshoot Microsoft Entra Register
+
+Enter (2) to troubleshoot Microsoft Entra join device
+
+Enter (3) to troubleshoot Microsoft Entra hybrid join
+
+Enter (4) to verify Service Connection Point (SCP)
+
+Enter (5) to verify the health status of the device
+
+Enter (6) to Verify Primary Refresh Token (PRT)
+
+Enter (7) to collect the logs
+
+Enter (Q) to Quit
+
+DSRegTool log file has been created.
+
+
+3
+
+TroubleshootMicrosoft Entra hybrid joined option has been chosen
+
+DSRegTool 4.0 has started
+Device Name : CSUDSK8PXSVN2
+User Account: csu\cst2683, UPN: cst2683.okta7@csu.com.br
+
+Testing if PowerShell running with elevated privileges...
+PowerShell is running with elevated privileges
+
+Testing OS version...
+Test passed: device has current OS version (10.0.19045.0)
+
+Testing if the device joined to the local domain...
+Test passed: CSUDSK8PXSVN2 device is joined to the local domain: CSU
+
+Testing if the device is connected to AzureAD...
+Test passed: CSUDSK8PXSVN2 device is joined to Microsoft Entra tenant: CSU Digital S/A
+
+Checking if there is a valid Access Token...
+There no valid Access Token, please sign-in to get an Access Token
+
+Device code AN5HZQX9S has been copied to the clipboard, please paste it into the opened 'Microsoft Graph Authentication' window, complete the sign in, and close the window to proceed.
+Note: If 'Microsoft Graph Authentication' window didn't open, use a web browser to open the page https://microsoft.com/devicelogin and enter the code AN5HZQX9S to authenticate.
+
+You signed-in successfully, and got an Access Token for user: Daniel Marrero, UPN: cst2683.okta7@csu.com.br
+
+Testing device status on Microsoft Entra ID...
+
+Testing if device exists on Microsoft Entra ID...
+Test passed: the device object exists on Microsoft Entra ID
+
+Testing if device is enabled on Microsoft Entra ID...
+Test passed: the device is enabled on Microsoft Entra tenant
+
+Testing device PENDING state...
+Test passed: the device is not in PENDING state
+
+Checking if device is stale...
+Device is not stale
+Last logon timestamp: 2025-09-17T20:49:42Z UTC, 1 days ago
+
+Testing device dual state...
+Test passed: The device is not in dual state
+
+
+The device is connected to Microsoft Entra ID as Microsoft Entra hybrid joined device, and it is in healthy state.
+
+
+Script completed successfully.
+
+
+

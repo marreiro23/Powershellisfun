@@ -47,7 +47,7 @@ Write-Host "Executando detecção de apps WinGet via Intune..." -ForegroundColor
 
 # 7. Análise avançada do dsreg (Device Registration)
 Write-Host "Executando análise detalhada de dsreg..." -ForegroundColor Cyan
-. ".\DSRegTool-main\dsregtool.exe" -OutputFileName "$reportDir\dsreg_detalhado.txt"
+. ".\DSRegTool-main\dsregtool.ps1"  -OutputFileName "$reportDir\dsreg_detalhado.txt"
 
 # 8. Listar todas as políticas de compliance do Intune
 Write-Host "Listando todas as políticas de compliance aplicadas..." -ForegroundColor Cyan

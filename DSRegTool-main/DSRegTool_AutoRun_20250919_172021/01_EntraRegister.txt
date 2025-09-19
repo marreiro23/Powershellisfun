@@ -1,0 +1,62 @@
+===========================================================
+          Device Registration Troubleshooter Tool          
+===========================================================
+
+Please provide any feedback, comment or suggestion
+
+Enter (1) to troubleshoot Microsoft Entra Register
+
+Enter (2) to troubleshoot Microsoft Entra join device
+
+Enter (3) to troubleshoot Microsoft Entra hybrid join
+
+Enter (4) to verify Service Connection Point (SCP)
+
+Enter (5) to verify the health status of the device
+
+Enter (6) to Verify Primary Refresh Token (PRT)
+
+Enter (7) to collect the logs
+
+Enter (Q) to Quit
+
+DSRegTool log file has been created.
+
+
+1
+
+troubleshoot Microsoft Entra Register option has been chosen
+
+DSRegTool 4.0 has started
+Device Name : CSUDSK8PXSVN2
+User Account: csu\cst2683, UPN: cst2683.okta7@csu.com.br
+
+Testing OS version...
+Test passed: device has current OS version (10.0.19045.0)
+
+Testing if the device is Microsoft Entra Registered...
+Test failed: CSUDSK8PXSVN2 device is NOT connected to Microsoft Entra ID as Microsoft Entra Registered device
+
+Testing Internet Connectivity...
+Connection to login.microsoftonline.com .............. Succeeded.
+Connection to device.login.microsoftonline.com ......  Succeeded.
+Connection to enterpriseregistration.windows.net ..... Succeeded.
+
+Test passed: User is able to communicate with MS endpoints successfully
+
+Checking if there is a valid Access Token...
+There no valid Access Token, please sign-in to get an Access Token
+
+Device code AA3LXTF8W has been copied to the clipboard, please paste it into the opened 'Microsoft Graph Authentication' window, complete the sign in, and close the window to proceed.
+Note: If 'Microsoft Graph Authentication' window didn't open, use a web browser to open the page https://microsoft.com/devicelogin and enter the code AA3LXTF8W to authenticate.
+
+You signed-in successfully, and got an Access Token for user: Daniel Marrero, UPN: cst2683.okta7@csu.com.br
+
+Testing Device Registration Service...
+Test passed: Device Registration Service is enabled on the tenant
+
+
+All tests completed successfully. You can start registering your device to Microsoft Entra ID.
+
+
+

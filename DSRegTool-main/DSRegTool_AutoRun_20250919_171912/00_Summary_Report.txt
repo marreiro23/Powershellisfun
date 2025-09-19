@@ -1,0 +1,11 @@
+========================================
+RELATÓRIO RESUMO - DSRegTool Auto Execution
+========================================
+Data/Hora: 09/19/2025 17:19:27
+Computador: CSUDSK8PXSVN2
+Usuário: csu\cst2683
+PowerShell: 7.5.3
+
+Arquivos Gerados:
+- 00_dsregcmd_status.txt (5,76 KB)
+- 00_Summary_Report.txt (0,25 KB)
