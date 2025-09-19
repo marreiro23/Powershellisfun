@@ -1,3 +1,4 @@
 {
-    "git.autofetch": "all"
+    "git.autofetch": "all",
+    "git.allowNoVerifyCommit": true
 }
